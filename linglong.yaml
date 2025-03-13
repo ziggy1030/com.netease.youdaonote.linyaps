@@ -3,7 +3,7 @@ package:
   id: com.netease.youdaonote.linyaps
   kind: app
   name: Youdao Note
-  version: 8.0.102.0
+  version: 8.0.102.1
   description: convert from 8.0.102    The Youdao Note
 
 base: org.deepin.base/23.1.0.3
