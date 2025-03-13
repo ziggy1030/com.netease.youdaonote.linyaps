@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Youdao Note
 Name[zh_CN]=有道云笔记
-Exec="/opt/apps/com.netease.youdaonote.linyaps/ynote/ynote-desktop" --no-sandbox %U
+Exec="/opt/apps/com.netease.youdaonote.linyaps/files/ynote/ynote-desktop" --no-sandbox %U
 Terminal=false
 Type=Application
 Icon=ynote-desktop
