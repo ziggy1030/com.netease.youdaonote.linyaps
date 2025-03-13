@@ -2,12 +2,12 @@ version: "1"
 package:
   id: com.netease.youdaonote.linyaps
   kind: app
-  name: 有道云笔记
-  version: 8.0.0.10
-  description: convert from 8.0.0    The Youdao Note
+  name: Youdao Note
+  version: 8.0.102.0
+  description: convert from 8.0.102    The Youdao Note
 
-base: org.deepin.base/23.1.0
-runtime: org.deepin.runtime.dtk/23.1.0
+base: org.deepin.base/23.1.0.3
+runtime: org.deepin.runtime.dtk/23.1.0.0
 
 build: |
   echo Package: ynote-desktop > $PREFIX/packages.list
@@ -17,18 +17,19 @@ build: |
   cd build
   ar -x ../linglong/sources/ynote-desktop.deb data.tar.xz
   tar -xvf data.tar.xz
-  cp -r opt/有道云笔记 $PREFIX
+  mv opt/有道云笔记 opt/ynote
+  cp -r opt/ynote $PREFIX
   cp -rP usr/* $PREFIX
   # 软件包deskopt的Exec和Icon需要改成支持玲珑的方式
   cp ../ynote-desktop.desktop $PREFIX/share/applications
 
 command:
-  - /opt/apps/com.netease.youdaonote.linyaps/files/有道云笔记/ynote-desktop
+  - /opt/apps/com.netease.youdaonote.linyaps/files/ynote/ynote-desktop
 
 sources:
   - kind: file
     url: https://artifact.lx.netease.com/download/ynote-electron/有道云笔记-web.deb
-    digest: b055b5b10a34e131f6d13feb88fb362b066f9a1f922597db465a445e4bb5bd6c
+    digest: 7296d8052882c65000583fb3ec8660403331e175d2a625f963afb99903c9b0e8
     name: ynote-desktop.deb
   # linglong:gen_deb_source sources amd64 https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2 beige main
   # linglong:gen_deb_source install libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0

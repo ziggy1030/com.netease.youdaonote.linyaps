@@ -1,9 +1,13 @@
 [Desktop Entry]
-Name=有道云笔记
-Exec="/opt/apps/com.netease.youdaonote.linyaps/有道云笔记/ynote-desktop" --no-sandbox %U
+Name=Youdao Note
+Name[zh_CN]=有道云笔记
+Exec="/opt/apps/com.netease.youdaonote.linyaps/ynote/ynote-desktop" --no-sandbox %U
 Terminal=false
 Type=Application
 Icon=ynote-desktop
 StartupWMClass=有道云笔记
 Comment=ynote-desktop
-Categories=Utility;
+Categories=Office;
+
+StartupNotify=true
+Terminal=false
