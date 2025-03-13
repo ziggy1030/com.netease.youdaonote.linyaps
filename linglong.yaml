@@ -28,7 +28,7 @@ command:
 
 sources:
   - kind: file
-    url: https://artifact.lx.netease.com/download/ynote-electron/有道云笔记-web.deb
+    url: https://minio.cicd.getdeepin.org/share/ynote-electron-8.0.102-amd64-web.deb
     digest: 7296d8052882c65000583fb3ec8660403331e175d2a625f963afb99903c9b0e8
     name: ynote-desktop.deb
   # linglong:gen_deb_source sources amd64 https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2 beige main
