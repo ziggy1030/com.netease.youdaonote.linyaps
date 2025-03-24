@@ -3,7 +3,7 @@ package:
   id: com.netease.youdaonote.linyaps
   kind: app
   name: Youdao Note
-  version: 8.0.102.1
+  version: 8.0.102.2
   description: convert from 8.0.102    The Youdao Note
 
 base: org.deepin.base/23.1.0.3
@@ -364,9 +364,6 @@ sources:
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/p/pam/libpam-runtime_1.5.3-7_all.deb
     digest: 28a2789917401d06fff5c31991bf27fc808626c5c086219df63cfe1acf978b97
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/systemd/libpam-systemd_255.2-4_amd64.deb
-    digest: 757625cb736a551f946c3c45805f451c192d6d1b68d28e880cc10cec3442b0e6
-  - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/p/pam/libpam0g_1.5.3-7_amd64.deb
     digest: 8d6d9dad048874967ea0b2d95f7370b737916ca94cf72f08d4ca2cd376e83f80
   - kind: file
@@ -427,12 +424,6 @@ sources:
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/g/gcc-13/libstdc++6_13.2.0-3deepin2_amd64.deb
     digest: 8b8362c5c96e22487f2a3f96a41cd4ddb2d265bf8e991327f01b2c6c55f9a57b
   - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/systemd/libsystemd-shared_255.2-4_amd64.deb
-    digest: 9a7a903ab6e05e63aa011e0a16d342bb7b83e5b1f3ba8bcd185a3c6f51faa548
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/systemd/libsystemd0_255.2-4_amd64.deb
-    digest: 66d48e2c47cf992897c35325e5aa0ad7a33a22d0ead358face789e3b82ab27c4
-  - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/libt/libtasn1-6/libtasn1-6_4.18.0-4_amd64.deb
     digest: 3f24f7a181f374bd6623bfdc7781e2cee5d948361a456d2f6216aa4ba5c44a2e
   - kind: file
@@ -447,9 +438,6 @@ sources:
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/t/tiff/libtiff6_4.5.1+git230720-1_amd64.deb
     digest: 8a0ee5ae052e11c5f52db3a793392cbcf8450760cc7ac83ff65d12b54120c83a
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/systemd/libudev1_255.2-4_amd64.deb
-    digest: e914502a0f3100f9ea4fa498030eaec593a7caae57a9fd13fc03d4b90609c385
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/libu/libunistring/libunistring2_0.9.10-6_amd64.deb
     digest: dfa507aa9982a3ba8cca86bc571d47e0c30d8adadc833e16cba4edd6e4c68155
@@ -549,15 +537,6 @@ sources:
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/shared-mime-info/shared-mime-info_2.2-1_amd64.deb
     digest: 545413a218d5cd7e3103b5e277419a7e67044c95f83ed7fb700c6c99ba523c02
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/systemd/systemd_255.2-4_amd64.deb
-    digest: 5509c863942480ff087520e55d0fbf67b13f42cf3938a002326ca1a5fa43fb54
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/systemd/systemd-dev_255.2-4_all.deb
-    digest: 9a82369b13b5a86762cfc4b08591f6ddb38bbb338eafe503317129d41e863cf8
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/s/systemd/systemd-sysv_255.2-4_amd64.deb
-    digest: 8afddf9a8fdd574681f98bc343ad208edf9c8c4837a0d623810995fc6d92f889
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/t/tar/tar_1.35+dfsg-3_amd64.deb
     digest: ee27ac0010bb1525067edda7b6b86110a00550232fb154f87491dbc3a3a2c8ff
