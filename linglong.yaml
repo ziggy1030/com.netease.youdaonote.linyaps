@@ -3,7 +3,7 @@ package:
   id: com.netease.youdaonote.linyaps
   kind: app
   name: Youdao Note
-  version: 8.0.102.2
+  version: 8.0.102.3
   description: convert from 8.0.102    The Youdao Note
 
 base: org.deepin.base/23.1.0.3
@@ -42,24 +42,6 @@ sources:
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/a/at-spi2-core/at-spi2-common_2.50.0-1_all.deb
     digest: 5289ad162167a611940e8f169ce6a1e6974bbe14f77a66ee890c137196fc654a
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dbus/dbus-bin_1.14.10-3_amd64.deb
-    digest: 703c756370944c7e301d5c855350dd66b8df46bdae735399138afb9dc3fffa55
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dbus-broker/dbus-broker_29-3_amd64.deb
-    digest: 68ff1baedb2f4ced1ff5d2f9c3e59bd21e741b7710931e0539c89ef5951df8ba
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dbus/dbus-daemon_1.14.10-3_amd64.deb
-    digest: 85212b9f616638ca22db78bcd022e90b640aad659a6c520b178d368947599e7d
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dbus/dbus-session-bus-common_1.14.10-3_all.deb
-    digest: 2f9dc2fb500df63edb46c3121e6540d838047e3a9e9c5ec0cbe05649b7da3f30
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dbus/dbus-system-bus-common_1.14.10-3_all.deb
-    digest: 2768fa6a52a3a0162988d735bd2cc7af849d3984fa9567c50092176ca36f9aa8
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dbus/dbus-user-session_1.14.10-3_amd64.deb
-    digest: 98dc33fb51b8eb00ad61f7dd199d3431d021c67fcdbd7e047b640a6d3fe4a636
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dconf/dconf-gsettings-backend_0.40.0-2_amd64.deb
     digest: 3d80cdcf5a1430426c402bfd90745303d879a7b860ef4d6f6e2df116ee4a386b
@@ -201,9 +183,6 @@ sources:
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/db5.3/libdb5.3_5.3.28+dfsg1-0.8_amd64.deb
     digest: 289a3fce1a5b476bd2269ae66ac701835d1228614965cbda4134ee95f5a5deba
-  - kind: file
-    url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dbus/libdbus-1-3_1.14.10-3_amd64.deb
-    digest: 1dff3a63259f14e7de7c4502e7083f7077b30a274f09d195176d566406b1b827
   - kind: file
     url: https://ci.deepin.com/repo/deepin/deepin-community/backup/rc2/pool/main/d/dconf/libdconf1_0.40.0-2_amd64.deb
     digest: 80248ca6b6f089cbf601cf9f5fe5f65f875a291c8413e1c93067dea6ae746f79
